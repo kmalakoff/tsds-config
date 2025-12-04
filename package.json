@@ -17,36 +17,22 @@
   },
   "license": "MIT",
   "author": "Kevin Malakoff <kmalakoff@gmail.com> (https://github.com/kmalakoff)",
-  "type": "module",
   "exports": {
-    ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
-    },
     "./biome.json": "./biome.json",
     "./tsconfig.json": "./tsconfig.json",
     "./package.json": "./package.json"
   },
-  "main": "dist/cjs/index.js",
-  "source": "src/index.ts",
-  "types": "dist/cjs/index.d.cts",
   "files": [
-    "dist",
     "biome.json",
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "tsds build",
-    "format": "npx @biomejs/biome check --write --unsafe",
+    "build": "echo \"Config files only - no build\"",
+    "format": "echo \"Config files only - no format\"",
     "prepublishOnly": "tsds validate",
-    "test": "tsds test:node --no-timeouts",
-    "version": "tsds version"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "*",
-    "@types/mocha": "*",
-    "@types/node": "*",
-    "tsds-config": "*"
+    "test": "echo \"Config files only - no tests\"",
+    "test:engines": "echo \"Config files only - no tests\"",
+    "version": "echo \"Config files only - no version\""
   },
   "engines": {
     "node": ">=0.8"

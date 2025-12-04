@@ -1,1 +1,0 @@
-ignores: ["@biomejs/biome", "@types/mocha", "tsds-config"]
