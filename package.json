@@ -37,7 +37,7 @@
   ],
   "scripts": {
     "build": "tsds build",
-    "format": "biome check --write --unsafe",
+    "format": "npx @biomejs/biome check --write --unsafe",
     "prepublishOnly": "tsds validate",
     "test": "tsds test:node --no-timeouts",
     "version": "tsds version"
@@ -45,7 +45,8 @@
   "devDependencies": {
     "@biomejs/biome": "*",
     "@types/mocha": "*",
-    "@types/node": "*"
+    "@types/node": "*",
+    "tsds-config": "*"
   },
   "engines": {
     "node": ">=0.8"

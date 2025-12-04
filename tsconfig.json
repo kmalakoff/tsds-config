@@ -12,10 +12,6 @@
     "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true,
     "downlevelIteration": true,
-    "allowJs": true,
-    "outDir": "dist",
-    "types": ["mocha", "node"]
-  },
-  "include": ["src", "test"],
-  "exclude": ["node_modules", "dist"]
+    "allowJs": true
+  }
 }
