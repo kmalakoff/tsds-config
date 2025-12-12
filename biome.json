@@ -55,9 +55,6 @@
           "complexity": {
             "useArrowFunction": "off"
           },
-          "suspicious": {
-            "noVar": "off"
-          },
           "style": {
             "useTemplate": "off"
           }
