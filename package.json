@@ -1,6 +1,6 @@
 {
   "name": "tsds-config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Typescript dev stack shared configuration files: tsconfig.json, biome.json, etc",
   "keywords": [
     "tsds",
