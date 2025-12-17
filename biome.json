@@ -27,7 +27,8 @@
         "noUnusedVariables": "warn",
         "noUnusedImports": "warn",
         "noInnerDeclarations": "off",
-        "useUniqueElementIds": "off"
+        "useUniqueElementIds": "off",
+        "noVoidTypeReturn": "off"
       },
       "performance": {
         "noDelete": "off"
