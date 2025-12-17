@@ -4,9 +4,10 @@
     "includes": ["**", "!docs"]
   },
   "formatter": {
-    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
     "lineWidth": 320,
-    "indentStyle": "space"
+    "lineEnding": "lf"
   },
   "javascript": {
     "formatter": {
