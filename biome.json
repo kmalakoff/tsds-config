@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.10/schema.json",
   "files": {
     "includes": ["**", "!docs"]
   },
@@ -30,6 +30,9 @@
         "noInnerDeclarations": "off",
         "useUniqueElementIds": "off",
         "noVoidTypeReturn": "off"
+      },
+      "suspicious": {
+        "noConfusingVoidType": "off"
       },
       "performance": {
         "noDelete": "off"
