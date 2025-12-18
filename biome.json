@@ -32,7 +32,8 @@
         "noVoidTypeReturn": "off"
       },
       "suspicious": {
-        "noConfusingVoidType": "off"
+        "noConfusingVoidType": "off",
+        "useIterableCallbackReturn": "off"
       },
       "performance": {
         "noDelete": "off"
