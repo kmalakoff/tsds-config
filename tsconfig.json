@@ -12,6 +12,7 @@
     "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true,
     "downlevelIteration": true,
-    "allowJs": true
+    "allowJs": true,
+    "ignoreDeprecations": "6.0"
   }
 }
